@@ -11,8 +11,8 @@ function happyHolidaysTo(name){
 happyHolidayTo(Amma)
 
 function happyHolidayTo(holiday, name){
-  var greeting = "Happy Independence Day, you!"
-  return
+  var greeting = "Happy"
+  return `${greeting} ${holiday}, ${name}`
 }
 
 function holidayCountdown(holiday, days){
