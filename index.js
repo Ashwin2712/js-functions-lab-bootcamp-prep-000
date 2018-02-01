@@ -8,8 +8,6 @@ function happyHolidaysTo(name){
   return `${greeting}, ${name}!`
 }
 
-happyHolidayTo(Amma)
-
 function happyHolidayTo(holiday, name){
   var greeting = "Happy"
   return `${greeting} ${holiday}, ${name}!`
