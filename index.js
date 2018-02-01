@@ -18,6 +18,7 @@ function happyHolidayTo(holiday, name){
 happyHolidayTo(Birthday, Amma)
 
 function holidayCountdown(holiday, days){
-  var greeting = "test"
-  return greeting
+  return `It's ${days} days until ${holiday}!`
 }
+
+holidayCountdown(Valentines Day, 12)
