@@ -21,4 +21,4 @@ function holidayCountdown(holiday, days){
   return `It's ${days} days until ${holiday}!`
 }
 
-holidayCountdown(Valentines Day, 12)
+holidayCountdown(Valentines Day, '12')
